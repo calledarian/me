@@ -1,0 +1,30 @@
+/* src/app/globals.css */
+
+.hover-lift {
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+}
+
+.tech-badge {
+  transition: all 0.2s ease;
+  cursor: default;
+}
+
+.tech-badge:hover {
+  transform: translateY(-2px);
+}
+
+.tech-icon {
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.2s ease;
+}
+
+.tech-badge:hover .tech-icon {
+  filter: grayscale(0%);
+  opacity: 1;
+}
